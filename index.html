@@ -61,17 +61,18 @@
                     document.querySelector('.wind').innerHTML = data.wind.speed + "km/h";
 
                     if (data.weather[0].main == "Clouds"){
-                    weatherIcon.src =  "/weather-site/styles/images/cloud.png";
+                    weatherIcon.src =  "styles/images/cloud.png";
                     }
                     else if(data.weather[0].main == "Clear"){
-                    weatherIcon.src =  "/weather-site/styles/images/clear.png";
+                    weatherIcon.src =  "styles/images/clear.png";
                     }
                     else if(data.weather[0].main == "Rain"){
-                    weatherIcon.src =  "/weather-site/styles/images/rain.png";
+                    weatherIcon.src =  "styles/images/rain.png";
                     }
                     else if(data.weather[0].main == "Mist"){
-                    weatherIcon.src =  "/weather-site/styles/images/mist.png";
+                    weatherIcon.src =  "styles/images/mist.png";
                     }
+
 
 
                     document.querySelector('.weather').style.display = 'block';
